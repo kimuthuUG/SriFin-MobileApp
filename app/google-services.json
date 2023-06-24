@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1053394234830",
+    "project_id": "kimuthu",
+    "storage_bucket": "kimuthu.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1053394234830:android:60f657ccff879b2f684f9f",
+        "android_client_info": {
+          "package_name": "com.example.newsfeed"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1053394234830-oi9s9jao4tuvfahhgab7qhbv51l6e9nt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDocQIxgl070U3WJrbqsk8CShRZLOYXjzs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1053394234830-oi9s9jao4tuvfahhgab7qhbv51l6e9nt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#81BD83"
+    tools:context=".Activities.MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="233dp"
+        android:layout_height="60dp"
+        android:background="@drawable/oval_button_background"
+        android:text="Insert Data"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.614" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="235dp"
+        android:layout_height="63dp"
+        android:background="@drawable/oval_button_background"
+        android:text="Fetch Data"
+        android:textColor="#FBFBFB"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.742" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="339dp"
+        android:layout_height="43dp"
+        android:text="NewsFeed Section"
+        android:textAlignment="center"
+        android:textColor="#FBFBFB"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.085" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="337dp"
+        android:layout_height="277dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.266"
+        app:srcCompat="@drawable/istockphoto_166054637_612x612" />
+
+    <Button
+        android:id="@+id/userview"
+        android:layout_width="235dp"
+        android:layout_height="62dp"
+        android:background="@drawable/oval_button_background"
+        android:text="User View"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.871" />
+</androidx.constraintlayout.widget.ConstraintLayout>
